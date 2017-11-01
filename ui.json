@@ -1,0 +1,18 @@
+{
+    "defaultEntryPoint": "index.html",
+    "namespace": "pmp",
+    "menuEntries": [
+                    {
+                        "label": "General Settings",
+                        "menu": "settings/orders/pmp",
+                        "urlKey": "general-setting",
+                        "entryPoint": "../../../../../pmp/settings/general-setting"
+                    },
+                    {
+                        "label": "Credit Card",
+                        "menu": "settings/orders/pmp",
+                        "urlKey": "credit-card",
+                        "entryPoint": "../../../../../pmp/settings/credit-card"
+                    }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "Pmp",
+    "description": "Pmp Backend Menu",
+    "namespace": "Pmp",
+    "author": "Payreto Dev",
+    "type": "payment",
+    "serviceProvider": "Pmp\\Providers\\PmpServiceProvider",
+    "runOnBuild"        : [
+        "Pmp\\Migrations\\CreatePmpTables",
+        "Pmp\\Migrations\\CreatePaymentMethod"
+    ]
+}
